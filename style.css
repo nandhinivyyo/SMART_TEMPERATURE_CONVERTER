@@ -1,0 +1,86 @@
+/* Background and layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #e0f7fa; /* Light blue background */
+  color: #333;
+}
+
+/* Centered card */
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #00796b; /* Teal */
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #004d40;
+}
+
+/* Input and selects */
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #b2ebf2;
+  background-color: #e0f2f1;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #00acc1;
+  outline: none;
+}
+
+/* Layout of from-to */
+.unit-selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Result box */
+.result {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid #81c784;
+}
+
+/* History section */
+.history {
+  margin-top: 30px;
+}
+
+#tempHistoryList {
+  list-style: none;
+  padding: 0;
+}
+
+#tempHistoryList li {
+  padding: 6px 10px;
+  margin: 4px 0;
+  background: #f1f8e9;
+  border-left: 5px solid #aed581;
+  border-radius: 5px;
+  font-size: 15px;
+}
