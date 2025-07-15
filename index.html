@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Temperature Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Temperature Converter</h1>
+
+    <div class="converter">
+      <input type="number" id="tempInput" placeholder="Enter temperature" />
+
+      <div class="unit-selectors">
+        <select id="fromTemp">
+          <option value="C">Celsius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+        </select>
+        <span>to</span>
+        <select id="toTemp">
+          <option value="C">Celsius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+        </select>
+      </div>
+
+      <div class="result" id="tempResult">Result: </div>
+    </div>
+
+    <div class="history">
+      <h2>Conversion History</h2>
+      <ul id="tempHistoryList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
